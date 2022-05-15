@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Знакомство с Java Script!</title>
+</head>
+
+<body id="theme">
+    <div class="hello_you"></div>
+    <label for="select" class="label_style">Давай подберём подходящую тему?</label>
+    <select name="select" id="select" class="select_style">
+        <option disabled selected="selected">Выбери тему</option>
+        <option value="dark">Тёмная</option>
+        <option value="dark-blue">Синяя</option>
+        <option value="white">Белая</option>
+    </select>
+    <div class="border">
+        <h3>Хочешь немного посчитать?</h3>
+        <p>
+            <label for="first">Введи первое число:</label>
+            <input type="text" id="first" placeholder="1" />
+        </p>
+        <p>
+            <label for="srcond">Введи второе число:</label>
+            <input type="text" id="second" placeholder="2" />
+        </p>
+        <p>Выбери действие:</p>
+        <div>
+            <button onclick="sum()">+</button>
+            <button onclick="sub()">-</button>
+            <button onclick="multi()">*</button>
+            <button onclick="divied()">/</button>
+        </div>
+        <hr />
+        <div id="answer">Ответ:</div>
+    </div>
+
+    <div class="changes_bg-color">
+        <div class="new_bg" onclick="changeColorGreen(this)">
+            <p>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odit, aperiam! Vitae quas esse voluptatem,
+                soluta
+                voluptate accusamus sunt architecto officiis!
+            </p>
+        </div>
+        <div class="new_bg" onclick="changeColorYellow(this)">
+            <p>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odit, aperiam! Vitae quas esse voluptatem,
+                soluta
+                voluptate accusamus sunt architecto officiis!
+            </p>
+        </div>
+        <div class="new_bg" onclick="changeColorPurple(this)">
+            <p>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odit, aperiam! Vitae quas esse voluptatem,
+                soluta
+                voluptate accusamus sunt architecto officiis!
+            </p>
+        </div>
+    </div>
+    <div id="carusel">
+        <div class="carusel_items">
+            <img src="/assets/img/img_1.jpg" alt="landscape_grafic_picture" class="carusel_item">
+            <img src="/assets/img/img_2.jpg" alt="landscape_grafic_picture" class="carusel_item">
+            <img src="/assets/img/img_3.jpg" alt="landscape_grafic_picture" class="carusel_item">
+            <img src="/assets/img/img_4.jpg" alt="landscape_grafic_picture" class="carusel_item">
+            <img src="/assets/img/img_5.jpg" alt="landscape_grafic_picture" class="carusel_item">
+            <img src="/assets/img/img_6.jpg" alt="landscape_grafic_picture" class="carusel_item">
+        </div>
+        <div class="carusel_buttons">
+            <button class="prev">Назад</button>
+            <button class="next">Вперед</button>
+        </div>
+    </div>
+
+    <script src="index.js"></script>
+</body>
+
+</html>

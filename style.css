@@ -1,0 +1,103 @@
+body {
+    width: 100vw;
+}
+
+.hello_you {
+    margin: 2% 0 5%;
+    font-size: 2.5em;
+    font-weight: bold;
+    text-align: center;
+}
+
+.border {
+    width: 500px;
+    text-align: center;
+    line-height: 60px;
+    border: 2px dotted rgb(245, 208, 208);
+    border-radius: 20px;
+    margin: 5% auto;
+}
+
+.changes_bg-color {
+    display: flex;
+    justify-content: center;
+    margin: 10% 0;
+}
+
+.new_bg {
+    width: 25%;
+    display: inline-block;
+    margin: 2%;
+    padding: 3%;
+    border: 1px dotted black;
+    box-sizing: border-box;
+}
+
+.div_1 {
+    background-color: rgba(169, 238, 188, 0.6);
+    border-radius: 20px;
+}
+
+.div_2 {
+    background-color: rgba(232, 241, 172, 0.6);
+    border-radius: 20px;
+}
+
+.div_3 {
+    background-color: rgba(202, 169, 238, 0.6);
+    border-radius: 20px;
+}
+
+#carusel {
+    width: 80vw;
+    margin: 10% auto;
+    border: 1px solid rgb(99, 20, 20);
+}
+
+.carusel_items img {
+    width: 100%;
+    box-sizing: border-box;
+    padding: 2%;
+    display: none;
+}
+
+.carusel_items img:first-child {
+    display: block;
+}
+
+.carusel_buttons {
+    margin: 2% 0;
+    padding: 0 auto;
+    text-align: center;
+}
+
+.theme_white {
+    color: #000;
+    background-color: #fff;
+}
+
+.theme_dark {
+    color: #fff;
+    background-color: rgb(0, 0, 0, 0.6);
+}
+
+.theme_dark-blue {
+    color: #fff;
+    background-color: rgba(7, 39, 75, 0.6);
+}
+
+.label_style {
+    display: block;
+    font-size: 2em;
+    font-weight: bolder;
+    text-align: center;
+}
+
+.select_style {
+    display: block;
+    width: 20%;
+    height: 15%;
+    margin: 3% auto;
+    font-size: 1.2em;
+    padding: 2% auto 2%;
+}
